@@ -49,8 +49,8 @@ An important function that works on boolean arrays is *where* (`&`). Where takes
 repeats their indices by their values:
 
 ```
- & 1 2 3
-0 1 1 2 2 2
+ & 1 3 2
+0 1 1 1 2 2
 ```
 
 What makes `&` interesting is that it can also repeat an index 0 times, thereby discarding it.
